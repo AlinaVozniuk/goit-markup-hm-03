@@ -212,7 +212,7 @@ padding: 120px 0 120px 0;}
 
 .li-portfolio {display: flex;
     gap: 24px;
-    margin-bottom: 48px;
+    row-gap: 48px;
     flex-wrap: wrap;}
 
 .bankinp-app {width: calc((100% - 48px) / 3);}
