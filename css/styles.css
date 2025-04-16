@@ -6,6 +6,8 @@ font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #fff;}
 
+img {display: block;}
+
 .container {max-width: 1158px;
 padding: 0 15px;
 margin: 0 auto;}
@@ -70,7 +72,7 @@ gap: 40px;}
 
 
 .main {background-color: #2E2F42;
-width: 1470px;
+width: 1440px;
 height: 600px;}
 
 .main-item {
@@ -215,7 +217,7 @@ letter-spacing: 0.02em;
 color: #434455;}
 
 .page-footer {background-color:#2E2F42;
-width:1510px;
+width:1440px;
 height: 312px;}
 
 .footer-logo .logo-part{color: #f4f4fd;
