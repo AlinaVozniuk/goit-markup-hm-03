@@ -113,8 +113,6 @@ min-width: 169px;}
 .main-button:focus 
 {background-color: #404BBF}
 
-.visually-hidden
-
 .headline-goal {display: flex;
 gap: 24px;
 margin-top: 115px;
@@ -131,7 +129,10 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding-bottom: 8px;}
+padding-bottom: 8px;
+}
+
+pattern .visually-hidden
 
 .headline-item {font-family: "Roboto", sans-serif;
 font-size: 16px;
@@ -163,8 +164,7 @@ color: #2e2f42;
 padding-top: 120px;
 padding-left: 639px;
 padding-right: 639px;
-margin-bottom: 72px;
-margin-bottom: 8px;}
+margin-bottom: 72px;}
 
 .team-work {background-color: #FFFFFF;
 border-radius: 0 0 4px 4px;
@@ -201,11 +201,6 @@ padding: 120px 0 120px 0;}
     margin-bottom: 48px;
     flex-wrap: wrap;}
 
-.li-portfolio-type {display: flex;
-    gap: 24px;
-    margin-bottom: 48px;
-    flex-wrap: wrap;}
-
 .bankinp-app {width: calc((100% - 48px) / 3);}
 
 .portfolio {font-family: "Roboto", sans-serif;
@@ -215,8 +210,7 @@ text-transform: capitalize;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-margin-bottom: 72px;
-margin-bottom: 8px;}
+margin-bottom: 72px;}
 
 .portfolio-item {padding: 32px 16px;
 border: 1px solid #e7e9fc;
