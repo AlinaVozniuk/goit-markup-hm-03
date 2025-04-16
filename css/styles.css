@@ -97,14 +97,13 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
-display: auto;
+display: block;
 margin-left: auto;
 margin-right: auto;
 padding: 16px 32px;
 border-radius: 4px;
 margin-bottom: 188px;
-margin-left: 636px;
-margin-right: 635px;}
+border: none;}
 
 
 .main-button:hover,
@@ -218,9 +217,12 @@ color: #434455;}
 
 .page-footer {background-color:#2E2F42;
 width:1440px;
-height: 312px;}
+height: 312px;
+padding: 100px 0;}
 
 .footer-logo .logo-part{color: #f4f4fd;
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .offer {font-family: "Roboto", sans-serif;
