@@ -113,6 +113,9 @@ min-width: 169px;}
 .main-button:focus 
 {background-color: #404BBF}
 
+
+.section-headline {padding: 120px 0;}
+
 .headline-goal {display: flex;
 gap: 24px;
 margin-top: 115px;
@@ -132,7 +135,16 @@ color: #2e2f42;
 padding-bottom: 8px;
 }
 
-pattern .visually-hidden
+.visually-hidden {position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;}
 
 .headline-item {font-family: "Roboto", sans-serif;
 font-size: 16px;
